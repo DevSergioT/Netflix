@@ -1,0 +1,155 @@
+*{
+          margin: 0px;
+          padding: 0px;
+          box-sizing: border-box;
+          font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+          color: #fff;
+          
+}
+#conteiner{
+
+        background: url("./img/background.jpeg") ;
+        padding-bottom: 140px;
+        padding-right: 50px;       
+
+}
+
+#logo{
+        position: relative;
+        margin:  0px 50px;
+        padding-top: 20px;
+        width: 100%;
+    }
+#img-logo{
+
+        width: auto;
+        height: 3rem;
+        padding-top: 0;
+}
+#botao{
+        margin: 0px 50px ;  
+        padding: 8px 10px;      
+        background-color: #e50914;
+        font-size: 13px;
+        text-align:center;
+        border: 0;    
+        border-radius: 3px;        
+        float: right ;
+        cursor: pointer;        
+}
+h1{
+        display:block;
+        text-align: center;
+        font-size:  4rem;  
+        margin-top: 180px;    
+}
+#assita{
+
+        text-align: center;
+        font-size: 28px;
+        margin: 20px 0px;
+}
+#pronto{
+
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+      
+}
+input{
+
+        font-size: 18px;
+        width: 480px;
+        height: 70px;
+        padding-left: 10px;
+        display: flex;
+        justify-content: center;
+        
+}
+
+#botao-email{
+
+        width: 180px;
+        height: 70px;
+        background-color: #e50914;
+        border: 0;
+        font-size: 28px;
+        cursor: pointer;          
+        padding: 0px 10px;
+        text-align: center;       
+}
+
+#botao-email:hover{
+
+        opacity: 0.8;
+}
+#form{
+
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        height: 70px;
+        cursor: text;
+    
+}
+#vamos{
+
+    padding: 10px;
+    float: right;
+    height: 40px;  
+}
+#duvidas{
+
+        padding: auto;
+        background-color: #060505;
+        border-top: 14px solid #303030;
+}
+h2{
+        margin-top: 30px;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 60px;
+
+}
+#pergunta{
+
+        width: 700px;
+        background-color: #303030;
+        height: 50px;
+        border: 0;
+        font-size: 24px;
+        margin-top: 10px;
+        text-align: left;
+        padding: 0 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;       
+}
+#seta{
+
+       float: right; 
+       margin-top: 10px;
+       transform: rotate(45deg);
+
+}
+#seta-girar{
+
+        float: right; 
+        margin-top: 7px;
+        transform: rotate(90deg);
+
+}
+#resposta{
+
+        width: 700px;
+        background-color: #303030;
+        margin-left: auto ;
+        margin-right: auto;
+        margin-top: 4px;
+        padding: 24px;
+        font-size: 25px;
+        display: none;
+
+}
+
